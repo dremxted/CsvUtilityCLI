@@ -1,0 +1,25 @@
+{
+    "profiles": {
+        "Development": {
+            "commandName": "Project",
+            "commandLineArgs": ".\\zz\\template.csv .\\zz\\inputs.csv -o .\\zz\\new\\",
+            "environmentVariables": {
+                "DOTNET_ENVIRONMENT": "Development"
+            }
+        },
+        "Production": {
+            "commandName": "Project",
+            "commandLineArgs": ".\\zz\\template.csv .\\zz\\inputs.csv -o .\\zz\\new.csv",
+            "environmentVariables": {
+                "DOTNET_ENVIRONMENT": "Production"
+            }
+        },
+        "Dev2": {
+            "commandName": "Project",
+            "commandLineArgs": "--s so --output a.csv",
+            "environmentVariables": {
+                "DOTNET_ENVIRONMENT": "Development"
+            }
+        }
+    }
+}

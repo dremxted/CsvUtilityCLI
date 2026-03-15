@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SheetRecordDuplicator.Application/SheetRecordDuplicator.Application.csproj" Id="ebf23622-3428-4bb2-aef3-08eff9bf358a" />
+  <Project Path="SheetRecordDuplicator.CLI/SheetRecordDuplicator.CLI.csproj" />
+  <Project Path="SheetRecordDuplicator.Common/SheetRecordDuplicator.Common.csproj" Id="05d7c0bf-8ba5-4e5a-8480-c1743c850bd8" />
+  <Project Path="SheetRecordDuplicator.Infrastructure/SheetRecordDuplicator.Infrastructure.csproj" Id="6f571b4c-d4a0-468e-8480-c029d77c2985" />
+</Solution>
